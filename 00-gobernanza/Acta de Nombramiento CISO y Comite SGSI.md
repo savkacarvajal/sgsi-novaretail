@@ -12,6 +12,8 @@
 | Fecha de emisión | 17-06-2026 |
 | Próxima revisión | 17-06-2027 |
 | Clasificación | Interno |
+| Elaborado por | Equipo SGSI — Thynk Unlimited |
+| Revisado por | CISO |
 | Aprobado por | Gerencia General |
 
 ## 2. Antecedentes

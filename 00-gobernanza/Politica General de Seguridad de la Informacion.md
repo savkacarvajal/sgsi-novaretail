@@ -50,6 +50,8 @@ Aplica a todo el personal, contratistas, proveedores y terceros que accedan a la
 | O-5 | Personal capacitado en seguridad | % personal con curso aprobado | ≥ 95 % anual |
 | O-6 | Vulnerabilidades críticas remediadas en SLA | % remediadas en plazo | ≥ 90 % |
 
+> El conjunto completo y medible de estos objetivos (con línea base, meta, frecuencia y responsable) se desarrolla en **Objetivos de Seguridad de la Información (GOB-SGSI-09)**.
+
 ## 7. Roles y responsabilidades
 - **Gerencia General**: aprueba la política, asigna recursos y rinde cuentas del SGSI (Accountable).
 - **CISO**: lidera el SGSI, gestiona riesgos e incidentes y reporta a la Dirección.

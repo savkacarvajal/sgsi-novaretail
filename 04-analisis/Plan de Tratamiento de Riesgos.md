@@ -37,7 +37,7 @@ Formalizar el tratamiento de cada riesgo identificado en la **Matriz de Evaluaci
 | R-01 Phishing a admin del portal | 🔴 20 | Mitigar | 8.5, 8.7, 8.16, 8.23 | POL-01/02/11 · PROC-05/10 | MFA obligatorio + EDR + monitoreo de accesos | CISO / TI | 1 | 🟠 Alto |
 | R-02 Ransomware en BD de clientes | 🔴 20 | Mitigar | 8.7, 8.8, 8.13, 8.33 | POL-03/04/09 · PROC-02/11 | EDR + backups 3-2-1 inmutables + ciclo de parches | CISO / TI | 1 | 🟢 Moderado |
 | R-03 Fraude transaccional en pasarela | 🔴 15 | Mitigar + Transferir | 8.24 | POL-12/13 · PROC-14 | Conciliación y monitoreo transaccional + contrato Transbank/Webpay | Gerencia Finanzas | 2 | 🟢 Moderado |
-| R-04 Explotación de vuln. en servidor | 🟠 16 | Mitigar | 8.8, 8.9, 8.15, 8.19 | POL-05/09/15 · PROC-01/04 | Parches + hardening CIS + quitar admin local | Infraestructura TI | 1 | 🟢 Moderado |
+| R-04 Explotación de vuln. en servidor | 🔴 16 | Mitigar | 8.8, 8.9, 8.15, 8.19 | POL-05/09/15 · PROC-01/04 | Parches + hardening CIS + quitar admin local | Infraestructura TI | 1 | 🟢 Moderado |
 | R-05 Movimiento lateral (red plana) | 🟠 12 | Mitigar | 8.20, 8.21, 8.22 | POL-07 · PROC-09 | Segmentación en VLANs + NGFW + IDS/IPS | Infraestructura TI | 2 | 🟢 Moderado |
 | R-06 Robo físico de estaciones de bodega | 🟢 9 | Mitigar | 8.1, 8.7 | POL-06 | Cifrado de disco (BitLocker) + control de acceso físico | Gerencia Operaciones | 2 | 🟢 Bajo |
 | R-07 Compromiso de credenciales privilegiadas | 🔴 20 | Mitigar | 8.2, 8.5, 8.16 | POL-01/02/14 · PROC-06/08 | PAM + MFA + capacitación anti-ingeniería social | CISO / RRHH | 1 | 🟠 Alto |
@@ -46,7 +46,7 @@ Formalizar el tratamiento de cada riesgo identificado en la **Matriz de Evaluaci
 | R-10 Caída prolongada del ERP (sin HA) | 🟠 10 | Mitigar + Aceptar | 8.6, 8.13, 8.14 | POL-03 · GOB-08 (BCP/DRP) | Replicación de BD + BCP/DRP; HA evaluada por costo | Gerencia TI | 2 | 🟢 Moderado |
 | R-11 Destrucción/cifrado de respaldos | 🔴 15 | Mitigar | 8.7, 8.13 | POL-03/04 · PROC-02/03 | Backup inmutable offsite + pruebas de restauración | Infraestructura TI | 1 | 🟢 Moderado |
 | R-12 Robo de credenciales en planillas | 🔴 15 | Mitigar | 8.2, 8.5 | POL-02 · PROC-08 | Gestor de contraseñas corporativo / PAM | Gerencia TI | 1 | 🟢 Moderado |
-| R-13 Compromiso de correo (phishing/BEC) | 🟠 16 | Mitigar | 8.5, 8.16, 8.21, 8.23 | POL-04/07/08 · PROC-10 | DMARC/SPF/DKIM + MFA + filtrado + capacitación | Gerencia TI | 1 | 🟢 Moderado |
+| R-13 Compromiso de correo (phishing/BEC) | 🔴 16 | Mitigar | 8.5, 8.16, 8.21, 8.23 | POL-04/07/08 · PROC-10 | DMARC/SPF/DKIM + MFA + filtrado + capacitación | Gerencia TI | 1 | 🟢 Moderado |
 | R-14 Reglas de firewall obsoletas | 🟢 8 | Mitigar | 8.8, 8.20 | POL-07 · PROC-09 | Revisión periódica de reglas + actualización de firmware | Infraestructura TI | 2 | 🟢 Bajo |
 | R-15 Divulgación de datos por ing. social | 🟢 9 | Mitigar | 8.16 | POL-10/14 · PROC-13 | Capacitación y concientización del personal | RRHH | 2 | 🟢 Bajo |
 | R-16 DDoS al portal e-commerce | 🟠 12 | Mitigar + Transferir | 8.20 | POL-07 | WAF + protección anti-DDoS (proveedor) | Infraestructura TI | 2 | 🟢 Moderado |
@@ -57,9 +57,9 @@ Formalizar el tratamiento de cada riesgo identificado en la **Matriz de Evaluaci
 | Métrica | Valor |
 |---|---|
 | Riesgos evaluados | 17 (R-01 a R-17) |
-| Críticos (≥ 15) | 6 → objetivo: reducir a Alto o inferior |
+| Críticos (≥ 15) | 8 → objetivo: reducir a Alto o inferior |
 | Altos (10–14) | 5 → objetivo: reducir a Moderado |
-| Moderados/Bajos (< 10) | 6 → tratamiento o aceptación con monitoreo |
+| Moderados/Bajos (< 10) | 4 → tratamiento o aceptación con monitoreo |
 | Opción predominante | Mitigar (con transferencia parcial en R-03, R-08, R-16) |
 | Riesgos aceptados sin tratamiento | 0 (la fracción aceptada de R-10 queda documentada) |
 

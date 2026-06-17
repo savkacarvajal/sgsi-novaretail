@@ -47,11 +47,16 @@
 | # | Brecha | Cláusula | Acción |
 |---|---|---|---|
 | G-2 | **Laboratorio técnico** sin montar (Zabbix/Wazuh/Ansible) | — | Ejecutar plan `05-laboratorio/` (trabajo de máquinas/VMs, fuera de este alcance) |
+| G-13 | **Procedimiento de Desarrollo Seguro (SDLC)** ausente: los controles 8.25–8.29 están en el SoA y se referencian en POL-09/POL-15, pero no hay un procedimiento dedicado (proceso 20 de la RACI). | 8.25–8.29 | Redactar PROC de SDLC seguro (requisitos, codificación, SAST/DAST, pruebas, separación de ambientes). |
+
+> **Cobertura procedimental (revisión política↔procedimiento):** 12 de las 15 políticas tienen un procedimiento dedicado y vinculado. **POL-04 (malware), POL-06 (uso de dispositivos) y POL-12 (cifrado)** no tienen un procedimiento 1:1; hoy se operacionalizan de forma transversal (PROC-01/02/04/06/12). Crear procedimientos dedicados para ellas es una mejora opcional.
 
 ## 4. Prioridad restante
 
-1. **G-2** Laboratorio técnico (Zabbix/Wazuh/Ansible) — único pendiente; trabajo de infraestructura/VMs.
-2. *(Opcional, solo si se amplía el alcance)* Completar el SoA con las categorías Organizacionales, Personas y Físicas (G-1).
+1. **G-2** Laboratorio técnico (Zabbix/Wazuh/Ansible) — único pendiente de entrega; trabajo de infraestructura/VMs.
+2. **G-13** Procedimiento de Desarrollo Seguro (SDLC) — única brecha documental real que queda.
+3. *(Opcional)* Procedimientos dedicados para POL-04 / POL-06 / POL-12.
+4. *(Opcional, solo si se amplía el alcance)* Completar el SoA con las categorías Organizacionales, Personas y Físicas (G-1).
 
 ## 5. Trazabilidad con el backlog (Kanban)
 

@@ -58,14 +58,14 @@
 | 19 | Capacitación y concientización | Matriz Competencias | I | A | C | I | I | R | C | I | I | C |
 | 20 | Desarrollo seguro (SDLC) | (gap SoA) | I | A | I | C | R | I | I | I | C | I |
 | 21 | Línea base de software | POL-15, PROC-04 | I | A | I | R | C | I | I | I | C | I |
-| 22 | Auditoría interna | (gap 9.2) | I | C | A | C | C | I | C | C | R | C |
-| 23 | Revisión por la Dirección | (gap 9.3) | A | R | R | C | I | C | C | I | C | I |
-| 24 | No conformidades y mejora continua | (gap 10) | A | R | C | C | C | C | C | C | C | C |
-| 25 | Continuidad del negocio (BCP/DRP) | (gap 5.29) | A | R | C | R | I | I | I | C | C | C |
+| 22 | Auditoría interna | GOB-05 | I | C | A | C | C | I | C | C | R | C |
+| 23 | Revisión por la Dirección | GOB-06 | A | R | R | C | I | C | C | I | C | I |
+| 24 | No conformidades y mejora continua | GOB-07 | A | R | C | C | C | C | C | C | C | C |
+| 25 | Continuidad del negocio (BCP/DRP) | GOB-08 | A | R | C | R | I | I | I | C | C | C |
 
 ## 5. Notas
 - Cada proceso tiene **un único A** (rinde cuentas).
-- Los "(gap …)" señalan procesos cuya documentación formal aún está pendiente (ver Gap Analysis del Comité).
+- El proceso 20 (Desarrollo seguro / SDLC) es la única brecha documental pendiente; auditoría (GOB-05), revisión por la dirección (GOB-06), no conformidades (GOB-07) y continuidad (GOB-08) ya cuentan con su documento.
 - Esta matriz debe revisarse en cada cambio organizacional relevante.
 
 ## 6. Control de cambios

@@ -28,7 +28,7 @@ Los objetivos son **coherentes** con la política, **medibles** (cuando es posib
 
 | ID | Objetivo | Indicador (KPI) | Línea base (2026-Q2) | Meta | Frecuencia | Responsable |
 |---|---|---|---|---|---|---|
-| O-1 | Reducir el riesgo residual de los riesgos críticos (Nivel ≥ 15) | N.º de riesgos críticos abiertos | 6 (R-01, R-02, R-03, R-07, R-11, R-12) | ↓ ≥ 50 % anual | Trimestral | CISO |
+| O-1 | Reducir el riesgo residual de los riesgos críticos (Nivel ≥ 15) | N.º de riesgos críticos abiertos | 8 (R-01, R-02, R-03, R-04, R-07, R-11, R-12, R-13) | ↓ ≥ 50 % anual | Trimestral | CISO |
 | O-2 | Cobertura de MFA en cuentas con acceso a sistemas | % de cuentas con MFA | ~0 % | 100 % | Trimestral | Gerencia TI |
 | O-3 | Cumplir los plazos de notificación a la ANCI | % de incidentes N3 reportados ≤ 3 h | s/d | 100 % | Por incidente | CISO |
 | O-4 | Backups probados (esquema 3-2-1) | % de pruebas de restauración exitosas | s/d | 100 % trimestral | Trimestral | Infraestructura TI |
