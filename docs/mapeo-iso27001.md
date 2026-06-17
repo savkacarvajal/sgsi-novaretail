@@ -39,6 +39,17 @@ La norma 2022 reorganiza los controles en 4 temas: **5. Organizacionales**, **6.
 | PROC-SGSI-10 Revisión y escalada de alertas | 8.15, 8.16 |
 | PROC-SGSI-11 Escaneo de vulnerabilidades | 8.8 |
 | PROC-SGSI-12 Retención y eliminación segura | 8.10, 8.13 |
+| PROC-SGSI-13 Contratación y desvinculación | 6.1, 6.2, 6.5 |
+| PROC-SGSI-14 Evaluación de proveedores | 5.19, 5.20, 5.21, 5.22 |
+
+## Gobernanza (cláusulas 4–10)
+
+| Documento | Cláusula ISO 27001:2022 |
+|---|---|
+| GOB-SGSI-01 Alcance del SGSI | 4.1, 4.2, 4.3 |
+| GOB-SGSI-02 Política General de Seguridad | 5.1, 5.2 · A.5.1 |
+| GOB-SGSI-03 Acta CISO y Comité SGSI | 5.1, 5.3 · A.5.2 |
+| GOB-SGSI-04 Matriz RACI | 5.3 · A.5.2, A.5.3 |
 
 ---
 *Nota: el mapeo es orientativo y debe validarse contra el alcance (SoA — Statement of Applicability) real del SGSI.*
