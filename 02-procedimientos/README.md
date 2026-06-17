@@ -25,4 +25,4 @@ Cada procedimiento es un documento `.docx` en esta carpeta. Trazabilidad complet
 | PROC-SGSI-18 | Cifrado y gestión de llaves | 8.24 | POL-12 | Gerencia TI / DBA |
 
 > Versión 1.0 · emisión 22-04-2026 (PROC-01 a 14) y 17-06-2026 (PROC-15 a 18) · aprobados por el **CISO** · clasificación **Interno**.
-> Diagramas de flujo de PROC-05/13/14 y otros en [`../03-evidencias/diagramas/`](../03-evidencias/diagramas/).
+> Cada procedimiento tiene su **diagrama de flujo (BPMN)** en [`../03-evidencias/diagramas/`](../03-evidencias/diagramas/) (18 diagramas, uno por procedimiento).

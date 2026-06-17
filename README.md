@@ -128,12 +128,10 @@ Ubicados en [`docs/`](docs/):
 
 ## 🗺️ Diagramas de flujo
 
-Disponibles en [`03-evidencias/diagramas/`](03-evidencias/diagramas/):
+**Un diagrama de flujo (BPMN) por cada uno de los 18 procedimientos**, en [`03-evidencias/diagramas/`](03-evidencias/diagramas/) (PNG + fuente editable `.svg` en `fuentes-svg/`).
 
-- **Gestión de incidentes y notificación ANCI** (PROC-SGSI-05) — plazos 3 h / 72 h / 15 días.
-- **Contratación y desvinculación** (PROC-SGSI-13).
-- **Evaluación de proveedores** (PROC-SGSI-14).
-- Respaldo y rollback, actualización y parchado, desvinculación segura.
+- Destacado: **Gestión de incidentes y notificación ANCI** (PROC-SGSI-05) — plazos Ley 21.663: **3 h / 72 h (24 h OIV) / 15 días**.
+- Cada diagrama enlaza el flujo operativo con su política base (índice en `Evidencias de diagramas.docx`).
 
 ## ⚖️ Marco normativo de referencia
 

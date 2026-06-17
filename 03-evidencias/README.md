@@ -26,22 +26,15 @@ Aquí se conservan los registros que demuestran que las políticas y procedimien
 
 ## Diagramas BPMN disponibles
 
-En [`diagramas/`](diagramas/). La narrativa de cada uno está en `Evidencias de diagramas.docx`; la fuente editable es `Diagramas.bpm`.
+**Un diagrama de flujo (BPMN) por cada uno de los 18 procedimientos**, en [`diagramas/`](diagramas/): `PROC-SGSI-01 … 18 - <nombre>.png`. Cada PNG tiene su **fuente editable `.svg`** en [`diagramas/fuentes-svg/`](diagramas/fuentes-svg/), regenerable con `rsvg-convert`. La narrativa y la trazabilidad de cada diagrama con su política base están en `Evidencias de diagramas.docx`.
 
-**Versión canónica (vigente):**
-- `PROC-SGSI-05 Gestión de incidentes y notificación ANCI.png` — alerta temprana 3 h · actualización 72 h (24 h si OIV) · informe final 15 días corridos.
-- `PROC-SGSI-13 Contratación y desvinculación.png`
-- `PROC-SGSI-14 Evaluación de proveedores.png`
-
-**Antecedente (versiones previas, se conservan):** `Actualización y parchado.png` · `Respaldo y rollback.png` · `Desvinculación Segura.png` · `Incidentes y sanciones.png`.
+> El diagrama de **PROC-SGSI-05** (incidentes) muestra los plazos de la Ley 21.663: alerta temprana **3 h** · actualización **72 h (24 h si OIV)** · informe final **15 días corridos**.
 
 ## Índice de evidencias (registro maestro)
 
 | ID | Fecha | Tipo | Documento / control que evidencia | Responsable | Ubicación | Estado |
 |---|---|---|---|---|---|---|
-| EVI-0001 | 2026-06-17 | Diagrama | PROC-SGSI-05 (incidentes/ANCI) | CISO | `diagramas/` | Vigente |
-| EVI-0002 | 2026-06-17 | Diagrama | PROC-SGSI-13 (contratación/desvinculación) | RRHH | `diagramas/` | Vigente |
-| EVI-0003 | 2026-06-17 | Diagrama | PROC-SGSI-14 (evaluación de proveedores) | Adquisiciones | `diagramas/` | Vigente |
+| EVI-0001 | 2026-06-17 | Diagramas | Flujo BPMN de los 18 procedimientos (PROC-SGSI-01 a 18) | CISO / dueños de proceso | `diagramas/` | Vigente |
 | _(plantilla)_ | AAAA-MM-DD | Acta / Informe / Certificado / Log | _documento o control_ | _responsable_ | _carpeta_ | Abierta / Vigente |
 
 ## Trazabilidad
