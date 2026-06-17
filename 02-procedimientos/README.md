@@ -1,6 +1,6 @@
 # 📘 Procedimientos Operativos
 
-Los **14 procedimientos** del SGSI (PROC-SGSI-01 a 14) que operacionalizan las [políticas](../01-politicas/).
+Los **18 procedimientos** del SGSI (PROC-SGSI-01 a 18) que operacionalizan las [políticas](../01-politicas/).
 Cada procedimiento es un documento `.docx` en esta carpeta. Trazabilidad completa en el [Maestro Documental](../docs/Maestro%20Documental%20SGSI.xlsx) y el [mapeo ISO](../docs/mapeo-iso27001.md).
 
 | Código | Procedimiento | Controles ISO 27001:2022 | Política | Responsable |
@@ -19,6 +19,10 @@ Cada procedimiento es un documento `.docx` en esta carpeta. Trazabilidad complet
 | PROC-SGSI-12 | Retención y eliminación segura | 8.10, 8.13, 8.33 | POL-10 | Gerencia TI / Delegado PDP |
 | PROC-SGSI-13 | Contratación y desvinculación | 6.1, 6.2, 6.5 | POL-14 | RRHH |
 | PROC-SGSI-14 | Evaluación de proveedores | 5.19–5.22 | POL-13 | CISO / Adquisiciones |
+| PROC-SGSI-15 | Desarrollo seguro (SDLC) | 8.4, 8.25–8.29, 8.31 | POL-15/09 | Jefe de Desarrollo / CISO |
+| PROC-SGSI-16 | Respuesta ante malware | 8.7 | POL-04 | Ciberseguridad / TI |
+| PROC-SGSI-17 | Uso seguro de dispositivos | 6.7, 7.9, 8.1 | POL-06 | Gerencia TI |
+| PROC-SGSI-18 | Cifrado y gestión de llaves | 8.24 | POL-12 | Gerencia TI / DBA |
 
-> Versión 1.0 · emisión 22-04-2026 · aprobados por el **CISO** · clasificación **Interno**.
+> Versión 1.0 · emisión 22-04-2026 (PROC-01 a 14) y 17-06-2026 (PROC-15 a 18) · aprobados por el **CISO** · clasificación **Interno**.
 > Diagramas de flujo de PROC-05/13/14 y otros en [`../03-evidencias/diagramas/`](../03-evidencias/diagramas/).

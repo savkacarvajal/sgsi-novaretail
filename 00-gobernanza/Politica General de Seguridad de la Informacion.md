@@ -70,7 +70,7 @@ La Dirección revisará el SGSI al menos una vez al año (Revisión por la Direc
 ## 10. Documentos relacionados
 - Alcance del SGSI (GOB-SGSI-01), Acta CISO/Comité (GOB-SGSI-03), Matriz RACI (GOB-SGSI-04)
 - Matriz de Riesgos y SoA (`04-analisis/`)
-- POL-SGSI-01 a 15 y PROC-SGSI-01 a 14
+- POL-SGSI-01 a 15 y PROC-SGSI-01 a 18
 
 ## 11. Control de cambios
 

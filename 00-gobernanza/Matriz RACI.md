@@ -56,7 +56,7 @@
 | 17 | Gestión de proveedores y terceros | POL-13, PROC-14 | I | A | C | C | I | I | C | R | C | C |
 | 18 | Contratación y desvinculación | POL-14, PROC-13 | I | C | I | R | I | A | I | I | I | C |
 | 19 | Capacitación y concientización | Matriz Competencias | I | A | C | I | I | R | C | I | I | C |
-| 20 | Desarrollo seguro (SDLC) | (gap SoA) | I | A | I | C | R | I | I | I | C | I |
+| 20 | Desarrollo seguro (SDLC) | POL-15/09, PROC-15 | I | A | I | C | R | I | I | I | C | I |
 | 21 | Línea base de software | POL-15, PROC-04 | I | A | I | R | C | I | I | I | C | I |
 | 22 | Auditoría interna | GOB-05 | I | C | A | C | C | I | C | C | R | C |
 | 23 | Revisión por la Dirección | GOB-06 | A | R | R | C | I | C | C | I | C | I |
@@ -65,7 +65,7 @@
 
 ## 5. Notas
 - Cada proceso tiene **un único A** (rinde cuentas).
-- El proceso 20 (Desarrollo seguro / SDLC) es la única brecha documental pendiente; auditoría (GOB-05), revisión por la dirección (GOB-06), no conformidades (GOB-07) y continuidad (GOB-08) ya cuentan con su documento.
+- Todos los procesos cuentan con su documento: el desarrollo seguro (proceso 20) se cubre con **PROC-SGSI-15**, y auditoría (GOB-05), revisión por la dirección (GOB-06), no conformidades (GOB-07) y continuidad (GOB-08) cierran las brechas de gobierno.
 - Esta matriz debe revisarse en cada cambio organizacional relevante.
 
 ## 6. Control de cambios

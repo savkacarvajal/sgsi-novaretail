@@ -22,7 +22,7 @@ Establecer cómo NovaRetail SpA planifica y ejecuta auditorías internas para ve
 
 ## 3. Alcance
 
-Cubre todos los procesos, políticas (POL-SGSI-01 a 15), procedimientos (PROC-SGSI-01 a 14) y controles del SoA dentro del alcance del SGSI (GOB-SGSI-01).
+Cubre todos los procesos, políticas (POL-SGSI-01 a 15), procedimientos (PROC-SGSI-01 a 18) y controles del SoA dentro del alcance del SGSI (GOB-SGSI-01).
 
 ## 4. Principios
 

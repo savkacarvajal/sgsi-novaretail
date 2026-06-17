@@ -41,6 +41,10 @@ La norma 2022 reorganiza los controles en 4 temas: **5. Organizacionales**, **6.
 | PROC-SGSI-12 Retención y eliminación segura | 8.10, 8.13, 8.33 |
 | PROC-SGSI-13 Contratación y desvinculación | 6.1, 6.2, 6.5 |
 | PROC-SGSI-14 Evaluación de proveedores | 5.19, 5.20, 5.21, 5.22 |
+| PROC-SGSI-15 Desarrollo seguro (SDLC) | 8.4, 8.25, 8.26, 8.27, 8.28, 8.29, 8.31 |
+| PROC-SGSI-16 Respuesta ante malware | 8.7 |
+| PROC-SGSI-17 Uso seguro de dispositivos | 8.1, 7.9, 6.7 |
+| PROC-SGSI-18 Cifrado y gestión de llaves | 8.24 |
 
 ## Gobernanza y operación del SGSI (cláusulas 4–10)
 

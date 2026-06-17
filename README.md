@@ -24,7 +24,7 @@ Desarrollado por el equipo **Thynk Unlimited** · Ramo *Gestión de la Cibersegu
 - [Estructura del repositorio](#-estructura-del-repositorio)
 - [Gobernanza y operación del SGSI](#-gobernanza-y-operación-del-sgsi)
 - [Índice de políticas](#-índice-de-políticas-15)
-- [Índice de procedimientos](#-índice-de-procedimientos-14)
+- [Índice de procedimientos](#-índice-de-procedimientos-18)
 - [Documentos de gestión](#-documentos-de-gestión)
 - [Diagramas de flujo](#-diagramas-de-flujo)
 - [Marco normativo](#-marco-normativo-de-referencia)
@@ -47,7 +47,7 @@ El sistema está alineado con cuatro marcos:
 |---|---|
 | `00-gobernanza/` | Núcleo y operación del sistema de gestión (cl. 4–10): alcance, política general, acta CISO/Comité, matriz RACI, auditoría interna, revisión por la dirección, no conformidades, BCP/DRP y objetivos de seguridad |
 | `01-politicas/` | 15 políticas de seguridad (POL-SGSI-01 a 15) |
-| `02-procedimientos/` | 14 procedimientos operativos (PROC-SGSI-01 a 14) |
+| `02-procedimientos/` | 18 procedimientos operativos (PROC-SGSI-01 a 18) |
 | `03-evidencias/` | Diagramas de flujo (PNG / BPMN) y repositorio de evidencias estructurado |
 | `04-analisis/` | Inventario de activos, matriz de riesgos (R-01 a R-17), SoA, metodología y plan de tratamiento de riesgos, y Gap Analysis |
 | `05-laboratorio/` | Plan del laboratorio técnico (Zabbix / Wazuh / Ansible) |
@@ -91,7 +91,7 @@ Núcleo del sistema de gestión (ISO/IEC 27001:2022, cláusulas 4–10). Documen
 | POL-SGSI-14 | Contratación y desvinculación | 6.1, 6.2, 6.4–6.6 |
 | POL-SGSI-15 | Línea base de software | 8.9, 8.19 |
 
-## ⚙️ Índice de procedimientos (14)
+## ⚙️ Índice de procedimientos (18)
 
 | Código | Procedimiento | Controles ISO 27001:2022 |
 |---|---|---|
@@ -109,6 +109,10 @@ Núcleo del sistema de gestión (ISO/IEC 27001:2022, cláusulas 4–10). Documen
 | PROC-SGSI-12 | Retención y eliminación segura | 8.10, 8.13, 8.33 |
 | PROC-SGSI-13 | Contratación y desvinculación | 6.1, 6.2, 6.5 |
 | PROC-SGSI-14 | Evaluación de proveedores | 5.19–5.22 |
+| PROC-SGSI-15 | Desarrollo seguro (SDLC) | 8.4, 8.25–8.29, 8.31 |
+| PROC-SGSI-16 | Respuesta ante malware | 8.7 |
+| PROC-SGSI-17 | Uso seguro de dispositivos | 6.7, 7.9, 8.1 |
+| PROC-SGSI-18 | Cifrado y gestión de llaves | 8.24 |
 
 ## 📊 Documentos de gestión
 
@@ -116,7 +120,7 @@ Ubicados en [`docs/`](docs/):
 
 | Documento | Descripción |
 |---|---|
-| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de los **50 documentos** del SGSI: gobernanza, políticas, procedimientos, análisis de riesgos, gestión documental y evidencias (versión, responsable, estado y controles). |
+| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de los **54 documentos** del SGSI: gobernanza, políticas, procedimientos, análisis de riesgos, gestión documental y evidencias (versión, responsable, estado y controles). |
 | [Matriz Legal](docs/Matriz%20Legal.xlsx) | Cruce de Ley 21.663, Ley 19.628 y PCI DSS v4.0 contra los documentos del SGSI. |
 | [Matriz de Competencias](docs/Matriz%20de%20Competencias.xlsx) | Competencias de seguridad exigidas por cargo (formación, MFA, PDP, certificaciones). |
 | [Contrato de Trabajo y Anexo de Seguridad](docs/Contrato%20de%20Trabajo%20y%20Anexo%20de%20Seguridad.docx) | Contrato con anexo de confidencialidad y perfil de cargo, alineado a PROC-SGSI-13. |

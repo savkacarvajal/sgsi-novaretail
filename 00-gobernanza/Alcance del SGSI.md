@@ -64,7 +64,7 @@ El SGSI depende de servicios de terceros (pasarela de pago, logística, nube). E
 ## 7. Documentos relacionados
 - Política General de Seguridad (GOB-SGSI-02)
 - Inventario de Activos, Matriz de Riesgos y SoA (`04-analisis/`)
-- Las 15 políticas (POL-SGSI-01 a 15) y 14 procedimientos (PROC-SGSI-01 a 14)
+- Las 15 políticas (POL-SGSI-01 a 15) y 18 procedimientos (PROC-SGSI-01 a 18)
 
 ## 8. Control de cambios
 

@@ -16,7 +16,7 @@
 
 ## 2. Lo que YA está cubierto ✅
 
-- 15 políticas (POL-SGSI-01 a 15) y 14 procedimientos (PROC-SGSI-01 a 14).
+- 15 políticas (POL-SGSI-01 a 15) y 18 procedimientos (PROC-SGSI-01 a 18).
 - Documentos de gestión: Maestro Documental, Matriz Legal, Matriz de Competencias, Contrato + Anexo.
 - **Gobernanza y operación** (`00-gobernanza/`): Alcance (4.3), Política General (5.1), Acta CISO/Comité (5.3), Matriz RACI (5.3), **Auditoría Interna (9.2)**, **Revisión por la Dirección (9.3)**, **No Conformidades y Acciones Correctivas (10)**, **BCP/DRP (5.29–5.30)** y **Objetivos de Seguridad medibles (6.2)**.
 - **Análisis** (`04-analisis/`): Inventario de Activos (15), Matriz de Riesgos (R-01 a R-17), SoA tecnológico (8.1–8.34), **Metodología de riesgos con criterios de aceptación (6.1.2)** y **Plan de Tratamiento de Riesgos (6.1.3)**.
@@ -37,6 +37,8 @@
 | G-10 | Nombres de archivo .docx normalizados (tildes mal codificadas) | — | 23 archivos renombrados |
 | G-11 | Fechas de emisión unificadas | — | Maestro alineado a los .docx (pol/proc **22-04-2026**; gobernanza/análisis **17-06-2026**) |
 | G-12 | Objetivos de seguridad medibles | 6.2 | GOB-SGSI-09 |
+| G-13 | Procedimiento de Desarrollo Seguro (SDLC) | 8.25–8.29 | PROC-SGSI-15 |
+| G-14 | Procedimientos dedicados de malware, dispositivos y cifrado | 8.7 / 8.1 / 8.24 | PROC-SGSI-16 / 17 / 18 |
 
 ### ◻️ Decisión de alcance (no es brecha)
 | # | Tema | Cláusula | Decisión |
@@ -47,16 +49,13 @@
 | # | Brecha | Cláusula | Acción |
 |---|---|---|---|
 | G-2 | **Laboratorio técnico** sin montar (Zabbix/Wazuh/Ansible) | — | Ejecutar plan `05-laboratorio/` (trabajo de máquinas/VMs, fuera de este alcance) |
-| G-13 | **Procedimiento de Desarrollo Seguro (SDLC)** ausente: los controles 8.25–8.29 están en el SoA y se referencian en POL-09/POL-15, pero no hay un procedimiento dedicado (proceso 20 de la RACI). | 8.25–8.29 | Redactar PROC de SDLC seguro (requisitos, codificación, SAST/DAST, pruebas, separación de ambientes). |
 
-> **Cobertura procedimental (revisión política↔procedimiento):** 12 de las 15 políticas tienen un procedimiento dedicado y vinculado. **POL-04 (malware), POL-06 (uso de dispositivos) y POL-12 (cifrado)** no tienen un procedimiento 1:1; hoy se operacionalizan de forma transversal (PROC-01/02/04/06/12). Crear procedimientos dedicados para ellas es una mejora opcional.
+> **Cobertura procedimental (revisión política↔procedimiento):** las **15 políticas tienen ahora un procedimiento dedicado** y vinculado con hipervínculo en ambos sentidos. Se agregaron **PROC-SGSI-15 (SDLC)**, **16 (malware → POL-04)**, **17 (dispositivos → POL-06)** y **18 (cifrado → POL-12)**.
 
 ## 4. Prioridad restante
 
-1. **G-2** Laboratorio técnico (Zabbix/Wazuh/Ansible) — único pendiente de entrega; trabajo de infraestructura/VMs.
-2. **G-13** Procedimiento de Desarrollo Seguro (SDLC) — única brecha documental real que queda.
-3. *(Opcional)* Procedimientos dedicados para POL-04 / POL-06 / POL-12.
-4. *(Opcional, solo si se amplía el alcance)* Completar el SoA con las categorías Organizacionales, Personas y Físicas (G-1).
+1. **G-2** Laboratorio técnico (Zabbix/Wazuh/Ansible) — **único pendiente**; trabajo de infraestructura/VMs.
+2. *(Opcional, solo si se amplía el alcance)* Completar el SoA con las categorías Organizacionales, Personas y Físicas (G-1).
 
 ## 5. Trazabilidad con el backlog (Kanban)
 
@@ -74,4 +73,5 @@
 | T-11–T-14 Operación del SGSI (auditoría, revisión, NC, BCP) | ✅ GOB-SGSI-05 a 08 |
 | Metodología + criterios de aceptación de riesgo | ✅ ANR-SGSI-01 |
 | Objetivos de seguridad medibles | ✅ GOB-SGSI-09 |
+| Cobertura procedimental 15/15 (SDLC, malware, dispositivos, cifrado) | ✅ PROC-SGSI-15 a 18 |
 | T-15 a T-20 Quick wins y cultura (laboratorio) | ⏳ pendientes (G-2) |
