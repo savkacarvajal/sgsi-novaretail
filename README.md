@@ -44,10 +44,12 @@ El sistema está alineado con cuatro marcos:
 
 | Carpeta | Descripción |
 |---|---|
+| `00-gobernanza/` | Núcleo del sistema de gestión (cl. 4–10): alcance, política general, acta CISO/Comité, matriz RACI |
 | `01-politicas/` | 15 políticas de seguridad (POL-SGSI-01 a 15) |
 | `02-procedimientos/` | 14 procedimientos operativos (PROC-SGSI-01 a 14) |
 | `03-evidencias/` | Diagramas de flujo (PNG / BPMN) y evidencias de respaldo |
-| `04-analisis/` | Análisis, scoring y auditoría de los documentos |
+| `04-analisis/` | Inventario de activos, matriz de riesgos (R-01 a R-17), SoA y Gap Analysis |
+| `05-laboratorio/` | Plan del laboratorio técnico (Zabbix / Wazuh / Ansible) |
 | `docs/` | Mapeo normativo y documentos de gestión (maestro documental, matrices, contrato) |
 
 ## 📋 Índice de políticas (15)
