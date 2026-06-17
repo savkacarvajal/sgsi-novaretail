@@ -24,6 +24,17 @@ Aquí se conservan los registros que demuestran que las políticas y procedimien
 
 `AAAA-MM-DD_TIPO_descripcion-corta.ext` — ejemplo: `2026-09-30_acta_revision-direccion.pdf`.
 
+## Diagramas BPMN disponibles
+
+En [`diagramas/`](diagramas/). La narrativa de cada uno está en `Evidencias de diagramas.docx`; la fuente editable es `Diagramas.bpm`.
+
+**Versión canónica (vigente):**
+- `PROC-SGSI-05 Gestión de incidentes y notificación ANCI.png` — alerta temprana 3 h · actualización 72 h (24 h si OIV) · informe final 15 días corridos.
+- `PROC-SGSI-13 Contratación y desvinculación.png`
+- `PROC-SGSI-14 Evaluación de proveedores.png`
+
+**Antecedente (versiones previas, se conservan):** `Actualización y parchado.png` · `Respaldo y rollback.png` · `Desvinculación Segura.png` · `Incidentes y sanciones.png`.
+
 ## Índice de evidencias (registro maestro)
 
 | ID | Fecha | Tipo | Documento / control que evidencia | Responsable | Ubicación | Estado |
