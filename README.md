@@ -120,8 +120,8 @@ Ubicados en [`docs/`](docs/):
 
 | Documento | Descripción |
 |---|---|
-| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de los **54 documentos** del SGSI: gobernanza, políticas, procedimientos, análisis de riesgos, gestión documental y evidencias (versión, responsable, estado y controles). |
-| [Matriz Legal](docs/Matriz%20Legal.xlsx) | Cruce de Ley 21.663, Ley 19.628 y PCI DSS v4.0 contra los documentos del SGSI. |
+| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de los **54 documentos** del SGSI: gobernanza, políticas, procedimientos, análisis de riesgos, gestión documental y evidencias (versión, responsable, estado, controles y **enlace a cada documento**). |
+| [Matriz Legal](docs/Matriz%20Legal.xlsx) | Cruce de las leyes del rubro (21.663, 19.628/21.719, 21.459 delitos informáticos, 19.496 consumidor, Código del Trabajo) y PCI DSS v4.0 contra los documentos del SGSI, con **enlace directo a cada norma**. |
 | [Matriz de Competencias](docs/Matriz%20de%20Competencias.xlsx) | Competencias de seguridad exigidas por cargo (formación, MFA, PDP, certificaciones). |
 | [Contrato de Trabajo y Anexo de Seguridad](docs/Contrato%20de%20Trabajo%20y%20Anexo%20de%20Seguridad.docx) | Contrato con anexo de confidencialidad y perfil de cargo, alineado a PROC-SGSI-13. |
 | [Mapeo ISO 27001](docs/mapeo-iso27001.md) | Mapeo de cada documento a los controles del Anexo A. |
