@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="877" viewBox="0 0 760 877">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1F3864"/></marker><marker id="an" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#A6A6A6"/></marker></defs>
+<rect width="760" height="877" fill="#FFFFFF"/>
+<text x="380.0" y="30" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#1F3864" font-weight="bold"><tspan x="380.0" dy="0.0">PROC-SGSI-18 — Cifrado y gestión de llaves</tspan></text>
+<text x="380.0" y="52" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="380.0" dy="0.0">ISO/IEC 27001:2022 — 8.24</tspan></text>
+<line x1="40" y1="66" x2="720" y2="66" stroke="#1F3864" stroke-width="1"/>
+<line x1="255" y1="136" x2="255" y2="176" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="222" x2="255" y2="262" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="318" x2="255" y2="358" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="414" x2="255" y2="454" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="562" x2="255" y2="608" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="263" y="585.0" font-family="DejaVu Sans,Arial" font-size="11" fill="#375623">Sí</text>
+<line x1="255" y1="664" x2="255" y2="704" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="160" y="92" width="190" height="44" rx="22.0" fill="#1F3864" stroke="#1F3864" stroke-width="1.6"/>
+<text x="255" y="114.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="0.0">Inicio</tspan></text>
+<rect x="85.0" y="176" width="340" height="46" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="199.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="0.0">Cifrado en tránsito (TLS 1.2 o superior)</tspan></text>
+<rect x="85.0" y="262" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="290.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Cifrado en reposo (BD de clientes,</tspan><tspan x="255" dy="16.0">discos, respaldos)</tspan></text>
+<rect x="85.0" y="358" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="386.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Gestión de llaves en bóveda / HSM con</tspan><tspan x="255" dy="16.0">mínimo privilegio</tspan></text>
+<polygon points="255,454 360.0,508.0 255,562 150.0,508.0" fill="#FFE699" stroke="#BF8F00" stroke-width="1.6"/>
+<text x="255" y="508.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#7F6000"><tspan x="255" dy="-15.0">¿Sospecha de</tspan><tspan x="255" dy="15.0">compromiso de una</tspan><tspan x="255" dy="15.0">llave?</tspan></text>
+<line x1="360.0" y1="508.0" x2="500" y2="508.0" stroke="#A6A6A6" stroke-width="1.4" marker-end="url(#an)"/>
+<text x="430.0" y="503.0" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" fill="#C00000">No</text>
+<rect x="500" y="488.0" width="240" height="40" rx="7" fill="#F2F2F2" stroke="#A6A6A6"/>
+<text x="620.0" y="508.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="620.0" dy="0.0">Rotación periódica programada</tspan></text>
+<rect x="85.0" y="608" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="636.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Rotación / revocación inmediata +</tspan><tspan x="255" dy="16.0">respaldo de llaves</tspan></text>
+<rect x="160" y="704" width="190" height="44" rx="22.0" fill="#375623" stroke="#375623" stroke-width="1.6"/>
+<text x="255" y="726.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="0.0">Fin</tspan></text>
+<rect x="40" y="794" width="680" height="63" rx="6" fill="#F7F7F7" stroke="#D0D0D0"/>
+<text x="54" y="808" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Roles (RACI): CISO, Gerencia TI / DBA</tspan></text>
+<text x="54" y="823" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Evidencia / registros: Inventario de llaves, configuración TLS</tspan></text>
+<text x="54" y="838" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Plazos / hitos: Rotación periódica</tspan></text>
+</svg>

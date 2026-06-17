@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="791" viewBox="0 0 760 791">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1F3864"/></marker><marker id="an" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#A6A6A6"/></marker></defs>
+<rect width="760" height="791" fill="#FFFFFF"/>
+<text x="380.0" y="30" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#1F3864" font-weight="bold"><tspan x="380.0" dy="0.0">POL-SGSI-01 — Política de control de acceso</tspan></text>
+<text x="380.0" y="52" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="380.0" dy="0.0">ISO/IEC 27001:2022 — 5.15–5.18, 8.2, 8.3, 8.5</tspan></text>
+<line x1="40" y1="66" x2="720" y2="66" stroke="#1F3864" stroke-width="1"/>
+<line x1="255" y1="136" x2="255" y2="176" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="232" x2="255" y2="272" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="328" x2="255" y2="368" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="424" x2="255" y2="464" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="572" x2="255" y2="618" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="263" y="595.0" font-family="DejaVu Sans,Arial" font-size="11" fill="#375623">Sí</text>
+<rect x="160" y="92" width="190" height="44" rx="22.0" fill="#1F3864" stroke="#1F3864" stroke-width="1.6"/>
+<text x="255" y="114.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="0.0">Inicio</tspan></text>
+<rect x="85.0" y="176" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="204.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Alcance: accesos lógicos a sistemas,</tspan><tspan x="255" dy="16.0">datos e infraestructura</tspan></text>
+<rect x="85.0" y="272" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="300.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Mínimo privilegio y necesidad de</tspan><tspan x="255" dy="16.0">conocer; sin cuentas compartidas; MFA</tspan></text>
+<rect x="85.0" y="368" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="396.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Ciclo de vida del acceso y revisión</tspan><tspan x="255" dy="16.0">periódica (PROC-06 / 07)</tspan></text>
+<polygon points="255,464 360.0,518.0 255,572 150.0,518.0" fill="#FFE699" stroke="#BF8F00" stroke-width="1.6"/>
+<text x="255" y="518.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#7F6000"><tspan x="255" dy="-15.0">¿Cumple en la</tspan><tspan x="255" dy="15.0">auditoría de</tspan><tspan x="255" dy="15.0">accesos?</tspan></text>
+<line x1="360.0" y1="518.0" x2="500" y2="518.0" stroke="#A6A6A6" stroke-width="1.4" marker-end="url(#an)"/>
+<text x="430.0" y="513.0" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" fill="#C00000">No</text>
+<rect x="500" y="485.0" width="240" height="66" rx="7" fill="#F2F2F2" stroke="#A6A6A6"/>
+<text x="620.0" y="518.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="620.0" dy="-14.0">Gestión de incumplimiento</tspan><tspan x="620.0" dy="14.0">(medidas disciplinarias /</tspan><tspan x="620.0" dy="14.0">POL-11)</tspan></text>
+<rect x="160" y="618" width="190" height="44" rx="22.0" fill="#375623" stroke="#375623" stroke-width="1.6"/>
+<text x="255" y="640.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="-8.0">Conforme · evidencia</tspan><tspan x="255" dy="16.0">registrada</tspan></text>
+<rect x="40" y="708" width="680" height="63" rx="6" fill="#F7F7F7" stroke="#D0D0D0"/>
+<text x="54" y="722" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Roles (RACI): CISO, Gerencia TI, jefaturas, RRHH</tspan></text>
+<text x="54" y="737" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Evidencia / registros: Tickets de acceso, logs, actas de revisión</tspan></text>
+<text x="54" y="752" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Plazos / hitos: Revisión semestral</tspan></text>
+</svg>

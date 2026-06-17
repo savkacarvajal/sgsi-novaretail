@@ -20,7 +20,7 @@
 - Documentos de gestión: Maestro Documental, Matriz Legal, Matriz de Competencias, Contrato + Anexo.
 - **Gobernanza y operación** (`00-gobernanza/`): Alcance (4.3), Política General (5.1), Acta CISO/Comité (5.3), Matriz RACI (5.3), **Auditoría Interna (9.2)**, **Revisión por la Dirección (9.3)**, **No Conformidades y Acciones Correctivas (10)**, **BCP/DRP (5.29–5.30)** y **Objetivos de Seguridad medibles (6.2)**.
 - **Análisis** (`04-analisis/`): Inventario de Activos (15), Matriz de Riesgos (R-01 a R-17), SoA tecnológico (8.1–8.34), **Metodología de riesgos con criterios de aceptación (6.1.2)** y **Plan de Tratamiento de Riesgos (6.1.3)**.
-- Diagramas BPMN de los 18 procedimientos (uno por cada uno); **repositorio de evidencias estructurado (7.5/9.1)**; mapeo ISO actualizado (incluye 8.14/8.29/8.33).
+- Diagramas BPMN: 18 de procedimientos + 15 mapas de política (con fuente SVG e índice Mermaid); **repositorio de evidencias estructurado (7.5/9.1)**; mapeo ISO actualizado (incluye 8.14/8.29/8.33).
 
 ## 3. Lo que FALTA ⚠️ (hoja de ruta)
 

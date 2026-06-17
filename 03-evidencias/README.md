@@ -7,7 +7,7 @@ Aquí se conservan los registros que demuestran que las políticas y procedimien
 
 | Carpeta | Contenido | Documento que la origina |
 |---|---|---|
-| `diagramas/` | Diagramas de flujo BPMN/PNG de los procesos | PROC-SGSI-05/13/14 y otros |
+| `diagramas/` | Diagramas BPMN: 18 de procedimientos (`procedimientos/`) y 15 de políticas (`politicas/`), con fuente SVG e índice Mermaid | POL-SGSI-01..15 · PROC-SGSI-01..18 |
 | `actas/` | Actas del Comité SGSI, de revisión por la dirección y de aceptación de riesgos | GOB-SGSI-03/06 · ANR-SGSI-01 |
 | `auditorias/` | Programa anual, planes, listas de verificación e informes de auditoría | GOB-SGSI-05 |
 | `no-conformidades/` | Registro de no conformidades y acciones correctivas | GOB-SGSI-07 |
@@ -26,15 +26,19 @@ Aquí se conservan los registros que demuestran que las políticas y procedimien
 
 ## Diagramas BPMN disponibles
 
-**Un diagrama de flujo (BPMN) por cada uno de los 18 procedimientos**, en [`diagramas/`](diagramas/): `PROC-SGSI-01 … 18 - <nombre>.png`. Cada PNG tiene su **fuente editable `.svg`** en [`diagramas/fuentes-svg/`](diagramas/fuentes-svg/), regenerable con `rsvg-convert`. La narrativa y la trazabilidad de cada diagrama con su política base están en `Evidencias de diagramas.docx`.
+**33 diagramas**, uno por cada política y procedimiento:
+- **18 procedimientos** (flujo operativo) en [`diagramas/procedimientos/`](diagramas/procedimientos/).
+- **15 políticas** (mapa de política: alcance → reglas → control → ¿cumple?) en [`diagramas/politicas/`](diagramas/politicas/).
 
-> El diagrama de **PROC-SGSI-05** (incidentes) muestra los plazos de la Ley 21.663: alerta temprana **3 h** · actualización **72 h (24 h si OIV)** · informe final **15 días corridos**.
+Cada PNG tiene su **fuente editable `.svg`** en [`diagramas/fuentes-svg/`](diagramas/fuentes-svg/) (regenerable con `rsvg-convert`). Índice navegable en **Mermaid** (se renderiza en GitHub): [`DIAGRAMAS-PROCEDIMIENTOS.md`](diagramas/DIAGRAMAS-PROCEDIMIENTOS.md) y [`DIAGRAMAS-POLITICAS.md`](diagramas/DIAGRAMAS-POLITICAS.md). Trazabilidad completa en `Evidencias de diagramas.docx`.
+
+> Los diagramas de **PROC-SGSI-05** y **POL-SGSI-11** (incidentes) muestran los plazos de la Ley 21.663: alerta temprana **3 h** · actualización **72 h (24 h si OIV)** · informe final **15 días corridos**.
 
 ## Índice de evidencias (registro maestro)
 
 | ID | Fecha | Tipo | Documento / control que evidencia | Responsable | Ubicación | Estado |
 |---|---|---|---|---|---|---|
-| EVI-0001 | 2026-06-17 | Diagramas | Flujo BPMN de los 18 procedimientos (PROC-SGSI-01 a 18) | CISO / dueños de proceso | `diagramas/` | Vigente |
+| EVI-0001 | 2026-06-17 | Diagramas | 33 diagramas BPMN: 15 políticas + 18 procedimientos (POL/PROC-SGSI) | CISO / dueños de proceso | `diagramas/` | Vigente |
 | _(plantilla)_ | AAAA-MM-DD | Acta / Informe / Certificado / Log | _documento o control_ | _responsable_ | _carpeta_ | Abierta / Vigente |
 
 ## Trazabilidad

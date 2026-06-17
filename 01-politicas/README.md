@@ -23,3 +23,4 @@ Cada política es un documento `.docx` en esta carpeta. El cruce completo con PC
 
 > Versión 1.0 · emisión 22-04-2026 · aprobadas por el **Comité SGSI** · clasificación **Interno**.
 > Los procedimientos que operacionalizan estas políticas están en [`../02-procedimientos/`](../02-procedimientos/).
+> Cada política tiene su **mapa de política (diagrama)** en [`../03-evidencias/diagramas/politicas/`](../03-evidencias/diagramas/politicas/) (índice Mermaid en `DIAGRAMAS-POLITICAS.md`).

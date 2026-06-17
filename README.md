@@ -128,10 +128,10 @@ Ubicados en [`docs/`](docs/):
 
 ## 🗺️ Diagramas de flujo
 
-**Un diagrama de flujo (BPMN) por cada uno de los 18 procedimientos**, en [`03-evidencias/diagramas/`](03-evidencias/diagramas/) (PNG + fuente editable `.svg` en `fuentes-svg/`).
+**33 diagramas** en [`03-evidencias/diagramas/`](03-evidencias/diagramas/): **18 de procedimientos** (`procedimientos/`) y **15 de políticas** (`politicas/`), cada uno en PNG con su fuente editable `.svg` (`fuentes-svg/`) e índice navegable en Mermaid ([procedimientos](03-evidencias/diagramas/DIAGRAMAS-PROCEDIMIENTOS.md) · [políticas](03-evidencias/diagramas/DIAGRAMAS-POLITICAS.md)).
 
-- Destacado: **Gestión de incidentes y notificación ANCI** (PROC-SGSI-05) — plazos Ley 21.663: **3 h / 72 h (24 h OIV) / 15 días**.
-- Cada diagrama enlaza el flujo operativo con su política base (índice en `Evidencias de diagramas.docx`).
+- Destacado: **incidentes / notificación ANCI** (PROC-SGSI-05 · POL-SGSI-11) — plazos Ley 21.663: **3 h / 72 h (24 h OIV) / 15 días**.
+- Cada diagrama indica los roles (RACI), la evidencia/registros y los controles ISO asociados.
 
 ## ⚖️ Marco normativo de referencia
 

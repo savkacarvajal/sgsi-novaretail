@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="973" viewBox="0 0 760 973">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1F3864"/></marker><marker id="an" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#A6A6A6"/></marker></defs>
+<rect width="760" height="973" fill="#FFFFFF"/>
+<text x="380.0" y="30" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#1F3864" font-weight="bold"><tspan x="380.0" dy="0.0">PROC-SGSI-15 — Desarrollo seguro (SDLC)</tspan></text>
+<text x="380.0" y="52" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="380.0" dy="0.0">ISO/IEC 27001:2022 — 8.25–8.29, 8.31</tspan></text>
+<line x1="40" y1="66" x2="720" y2="66" stroke="#1F3864" stroke-width="1"/>
+<line x1="255" y1="136" x2="255" y2="176" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="232" x2="255" y2="272" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="328" x2="255" y2="368" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="424" x2="255" y2="464" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="520" x2="255" y2="560" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="255" y1="668" x2="255" y2="714" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="263" y="691.0" font-family="DejaVu Sans,Arial" font-size="11" fill="#375623">Sí</text>
+<line x1="255" y1="760" x2="255" y2="800" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="160" y="92" width="190" height="44" rx="22.0" fill="#1F3864" stroke="#1F3864" stroke-width="1.6"/>
+<text x="255" y="114.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="0.0">Inicio</tspan></text>
+<rect x="85.0" y="176" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="204.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Requisitos de seguridad desde el diseño</tspan><tspan x="255" dy="16.0">(OWASP ASVS)</tspan></text>
+<rect x="85.0" y="272" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="300.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Diseño y arquitectura segura (modelado</tspan><tspan x="255" dy="16.0">de amenazas)</tspan></text>
+<rect x="85.0" y="368" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="396.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Codificación segura (sin secretos en el</tspan><tspan x="255" dy="16.0">código)</tspan></text>
+<rect x="85.0" y="464" width="340" height="56" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="492.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="-8.0">Pruebas SAST / DAST / SCA en el pipeline</tspan><tspan x="255" dy="16.0">de CI</tspan></text>
+<polygon points="255,560 360.0,614.0 255,668 150.0,614.0" fill="#FFE699" stroke="#BF8F00" stroke-width="1.6"/>
+<text x="255" y="614.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#7F6000"><tspan x="255" dy="-7.5">¿Pasa las pruebas y</tspan><tspan x="255" dy="15.0">el pentest?</tspan></text>
+<line x1="360.0" y1="614.0" x2="500" y2="614.0" stroke="#A6A6A6" stroke-width="1.4" marker-end="url(#an)"/>
+<text x="430.0" y="609.0" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" fill="#C00000">No</text>
+<rect x="500" y="589.0" width="240" height="50" rx="7" fill="#F2F2F2" stroke="#A6A6A6"/>
+<text x="620.0" y="614.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#595959"><tspan x="620.0" dy="-7.0">Corregir los hallazgos antes de</tspan><tspan x="620.0" dy="14.0">avanzar</tspan></text>
+<rect x="85.0" y="714" width="340" height="46" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.5"/>
+<text x="255" y="737.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#1F3864"><tspan x="255" dy="0.0">Aprobación del CISO y paso a producción</tspan></text>
+<rect x="160" y="800" width="190" height="44" rx="22.0" fill="#375623" stroke="#375623" stroke-width="1.6"/>
+<text x="255" y="822.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold"><tspan x="255" dy="0.0">Fin</tspan></text>
+<rect x="40" y="890" width="680" height="63" rx="6" fill="#F7F7F7" stroke="#D0D0D0"/>
+<text x="54" y="904" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Roles (RACI): Jefe de Desarrollo, CISO</tspan></text>
+<text x="54" y="919" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Evidencia / registros: Reportes SAST/DAST, informe de pentest</tspan></text>
+<text x="54" y="934" text-anchor="start" dominant-baseline="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#404040"><tspan x="54" dy="0.0">Plazos / hitos: Pentest en release mayor</tspan></text>
+</svg>
