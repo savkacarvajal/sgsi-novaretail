@@ -22,6 +22,7 @@ Desarrollado por el equipo **Thynk Unlimited** · Ramo *Gestión de la Cibersegu
 
 - [Sobre el proyecto](#-sobre-el-proyecto)
 - [Estructura del repositorio](#-estructura-del-repositorio)
+- [Gobernanza y operación del SGSI](#-gobernanza-y-operación-del-sgsi)
 - [Índice de políticas](#-índice-de-políticas-15)
 - [Índice de procedimientos](#-índice-de-procedimientos-14)
 - [Documentos de gestión](#-documentos-de-gestión)
@@ -44,13 +45,31 @@ El sistema está alineado con cuatro marcos:
 
 | Carpeta | Descripción |
 |---|---|
-| `00-gobernanza/` | Núcleo del sistema de gestión (cl. 4–10): alcance, política general, acta CISO/Comité, matriz RACI |
+| `00-gobernanza/` | Núcleo y operación del sistema de gestión (cl. 4–10): alcance, política general, acta CISO/Comité, matriz RACI, auditoría interna, revisión por la dirección, no conformidades, BCP/DRP y objetivos de seguridad |
 | `01-politicas/` | 15 políticas de seguridad (POL-SGSI-01 a 15) |
 | `02-procedimientos/` | 14 procedimientos operativos (PROC-SGSI-01 a 14) |
-| `03-evidencias/` | Diagramas de flujo (PNG / BPMN) y evidencias de respaldo |
-| `04-analisis/` | Inventario de activos, matriz de riesgos (R-01 a R-17), SoA y Gap Analysis |
+| `03-evidencias/` | Diagramas de flujo (PNG / BPMN) y repositorio de evidencias estructurado |
+| `04-analisis/` | Inventario de activos, matriz de riesgos (R-01 a R-17), SoA, metodología y plan de tratamiento de riesgos, y Gap Analysis |
 | `05-laboratorio/` | Plan del laboratorio técnico (Zabbix / Wazuh / Ansible) |
 | `docs/` | Mapeo normativo y documentos de gestión (maestro documental, matrices, contrato) |
+
+## 🏛️ Gobernanza y operación del SGSI
+
+Núcleo del sistema de gestión (ISO/IEC 27001:2022, cláusulas 4–10). Documentos en [`00-gobernanza/`](00-gobernanza/) y análisis de riesgos en [`04-analisis/`](04-analisis/).
+
+| Código | Documento | Cláusula ISO |
+|---|---|---|
+| GOB-SGSI-01 | Alcance del SGSI | 4.1–4.3 |
+| GOB-SGSI-02 | Política General de Seguridad | 5.1, 5.2 |
+| GOB-SGSI-03 | Acta CISO y Comité SGSI | 5.1, 5.3 |
+| GOB-SGSI-04 | Matriz RACI | 5.3 |
+| GOB-SGSI-05 | Procedimiento de Auditoría Interna | 9.2 |
+| GOB-SGSI-06 | Procedimiento de Revisión por la Dirección | 9.3 |
+| GOB-SGSI-07 | No Conformidades y Acciones Correctivas | 10.1, 10.2 |
+| GOB-SGSI-08 | Plan de Continuidad del Negocio (BCP/DRP) | 5.29, 5.30 |
+| GOB-SGSI-09 | Objetivos de Seguridad de la Información | 6.2 |
+| ANR-SGSI-01 | Metodología de Evaluación y Tratamiento de Riesgos | 6.1.2 |
+| ANR-SGSI-02 | Plan de Tratamiento de Riesgos | 6.1.3 |
 
 ## 📋 Índice de políticas (15)
 
@@ -58,14 +77,14 @@ El sistema está alineado con cuatro marcos:
 |---|---|---|
 | POL-SGSI-01 | Control de acceso | 5.15–5.18, 8.2, 8.3, 8.5 |
 | POL-SGSI-02 | Gestión de contraseñas y autenticación | 5.17, 8.5 |
-| POL-SGSI-03 | Respaldo y recuperación | 8.13 |
+| POL-SGSI-03 | Respaldo y recuperación | 8.13, 8.14 |
 | POL-SGSI-04 | Protección contra malware | 8.7 |
 | POL-SGSI-05 | Gestión de parches y actualización | 8.8, 8.19 |
 | POL-SGSI-06 | Uso seguro de dispositivos y estaciones | 6.7, 7.9, 8.1 |
 | POL-SGSI-07 | Seguridad de red | 8.20–8.23 |
 | POL-SGSI-08 | Registro y monitoreo | 8.15–8.17 |
-| POL-SGSI-09 | Gestión de vulnerabilidades | 8.8 |
-| POL-SGSI-10 | Manejo de información y clasificación | 5.12–5.14, 8.10–8.12 |
+| POL-SGSI-09 | Gestión de vulnerabilidades | 8.8, 8.29 |
+| POL-SGSI-10 | Manejo de información y clasificación | 5.12–5.14, 8.10–8.12, 8.33 |
 | POL-SGSI-11 | Gestión de incidentes y reporte ANCI | 5.24–5.28 |
 | POL-SGSI-12 | Cifrado de datos | 8.24 |
 | POL-SGSI-13 | Gestión de proveedores y terceros (OIV) | 5.19–5.23 |
@@ -77,7 +96,7 @@ El sistema está alineado con cuatro marcos:
 | Código | Procedimiento | Controles ISO 27001:2022 |
 |---|---|---|
 | PROC-SGSI-01 | Actualización y gestión de parches | 8.8, 8.19 |
-| PROC-SGSI-02 | Backup de base de datos | 8.13 |
+| PROC-SGSI-02 | Backup de base de datos | 8.13, 8.14 |
 | PROC-SGSI-03 | Rollback | 8.13, 8.32 |
 | PROC-SGSI-04 | Línea base de software (Ansible) | 8.9, 8.19, 8.32 |
 | PROC-SGSI-05 | Incidentes con plazos ANCI | 5.24–5.26 |
@@ -86,8 +105,8 @@ El sistema está alineado con cuatro marcos:
 | PROC-SGSI-08 | Uso del gestor de contraseñas | 5.17, 8.5 |
 | PROC-SGSI-09 | Segmentación y revisión de firewall | 8.20, 8.22 |
 | PROC-SGSI-10 | Revisión y escalada de alertas | 8.15, 8.16 |
-| PROC-SGSI-11 | Escaneo de vulnerabilidades | 8.8 |
-| PROC-SGSI-12 | Retención y eliminación segura | 8.10, 8.13 |
+| PROC-SGSI-11 | Escaneo de vulnerabilidades | 8.8, 8.29 |
+| PROC-SGSI-12 | Retención y eliminación segura | 8.10, 8.13, 8.33 |
 | PROC-SGSI-13 | Contratación y desvinculación | 6.1, 6.2, 6.5 |
 | PROC-SGSI-14 | Evaluación de proveedores | 5.19–5.22 |
 
@@ -97,7 +116,7 @@ Ubicados en [`docs/`](docs/):
 
 | Documento | Descripción |
 |---|---|
-| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de las 29 políticas y procedimientos (versión, responsable, estado, controles). |
+| [Maestro Documental SGSI](docs/Maestro%20Documental%20SGSI.xlsx) | Índice maestro de los **50 documentos** del SGSI: gobernanza, políticas, procedimientos, análisis de riesgos, gestión documental y evidencias (versión, responsable, estado y controles). |
 | [Matriz Legal](docs/Matriz%20Legal.xlsx) | Cruce de Ley 21.663, Ley 19.628 y PCI DSS v4.0 contra los documentos del SGSI. |
 | [Matriz de Competencias](docs/Matriz%20de%20Competencias.xlsx) | Competencias de seguridad exigidas por cargo (formación, MFA, PDP, certificaciones). |
 | [Contrato de Trabajo y Anexo de Seguridad](docs/Contrato%20de%20Trabajo%20y%20Anexo%20de%20Seguridad.docx) | Contrato con anexo de confidencialidad y perfil de cargo, alineado a PROC-SGSI-13. |

@@ -8,53 +8,50 @@
 | Capa | Estado | % |
 |---|---|---|
 | Operativa (políticas, procedimientos, controles) | Sólida | ~85% |
-| Análisis de riesgos (inventario, matriz, SoA) | Incorporada al repo | ~75% |
-| Gobierno (alcance, política madre, roles, RACI) | Incorporada al repo | ~70% |
-| Operación del SGSI (auditoría, revisión dirección, mejora, BCP) | Pendiente | ~20% |
+| Análisis de riesgos (inventario, matriz, SoA, metodología, plan de tratamiento) | Completa (alcance tecnológico) | ~90% |
+| Gobierno (alcance, política madre, roles, RACI) | Sólida | ~90% |
+| Operación del SGSI (auditoría, revisión dirección, mejora, BCP, objetivos) | Incorporada al repo | ~90% |
 | Laboratorio técnico (Zabbix/Wazuh/Ansible) | Planificado, sin montar | 0% |
-| **Madurez global** | **En progreso** | **~65%** |
+| **Madurez global** | **En progreso** | **~80%** |
 
 ## 2. Lo que YA está cubierto ✅
 
 - 15 políticas (POL-SGSI-01 a 15) y 14 procedimientos (PROC-SGSI-01 a 14).
 - Documentos de gestión: Maestro Documental, Matriz Legal, Matriz de Competencias, Contrato + Anexo.
-- **Gobernanza** (`00-gobernanza/`): Alcance (4.3), Política General (5.1), Acta CISO/Comité (5.3), Matriz RACI.
-- **Análisis** (`04-analisis/`): Inventario de Activos (15), Matriz de Riesgos (R-01 a R-17), SoA tecnológico (8.1–8.34).
-- Diagramas BPMN de procesos clave; mapeo ISO actualizado.
+- **Gobernanza y operación** (`00-gobernanza/`): Alcance (4.3), Política General (5.1), Acta CISO/Comité (5.3), Matriz RACI (5.3), **Auditoría Interna (9.2)**, **Revisión por la Dirección (9.3)**, **No Conformidades y Acciones Correctivas (10)**, **BCP/DRP (5.29–5.30)** y **Objetivos de Seguridad medibles (6.2)**.
+- **Análisis** (`04-analisis/`): Inventario de Activos (15), Matriz de Riesgos (R-01 a R-17), SoA tecnológico (8.1–8.34), **Metodología de riesgos con criterios de aceptación (6.1.2)** y **Plan de Tratamiento de Riesgos (6.1.3)**.
+- Diagramas BPMN de procesos clave; **repositorio de evidencias estructurado (7.5/9.1)**; mapeo ISO actualizado (incluye 8.14/8.29/8.33).
 
 ## 3. Lo que FALTA ⚠️ (hoja de ruta)
 
-### 🔴 Críticas
+### ✅ Resueltas en esta versión
+| # | Brecha | Cláusula | Documento que la cierra |
+|---|---|---|---|
+| G-3 | Plan de Tratamiento de Riesgos | 6.1.3 | ANR-SGSI-02 |
+| G-4 | Procedimiento de Auditoría Interna + programa anual | 9.2 | GOB-SGSI-05 |
+| G-5 | Procedimiento de Revisión por la Dirección | 9.3 | GOB-SGSI-06 |
+| G-6 | No Conformidades y Acciones Correctivas | 10.1, 10.2 | GOB-SGSI-07 |
+| G-7 | Plan de Continuidad del Negocio (BCP/DRP) | 5.29, 5.30 | GOB-SGSI-08 |
+| G-8 | Repositorio de evidencias estructurado | 7.5, 9.1 | `03-evidencias/README.md` + carpetas e índice |
+| G-9 | Escala y **criterios de aceptación del riesgo** | 6.1.2 | ANR-SGSI-01 |
+| G-10 | Nombres de archivo .docx normalizados (tildes mal codificadas) | — | 23 archivos renombrados |
+| G-11 | Fechas de emisión unificadas | — | Maestro alineado a los .docx (pol/proc **22-04-2026**; gobernanza/análisis **17-06-2026**) |
+| G-12 | Objetivos de seguridad medibles | 6.2 | GOB-SGSI-09 |
+
+### ◻️ Decisión de alcance (no es brecha)
+| # | Tema | Cláusula | Decisión |
+|---|---|---|---|
+| G-1 | SoA cubre **solo controles Tecnológicos** (8.1–8.34) | 6.1.3.d | Alcance deliberado de esta versión: Organizacionales (5.x), Personas (6.x) y Físicos (7.x) quedan fuera. |
+
+### ⏳ Pendiente (fuera de esta entrega documental)
 | # | Brecha | Cláusula | Acción |
 |---|---|---|---|
-| G-1 | **SoA incompleto**: solo cubre controles Tecnológicos (cap. 8). Faltan **Organizacionales (5.1–5.37)**, **Personas (6.1–6.8)** y **Físicos (7.1–7.14)** | 6.1.3.d | Completar las 3 categorías restantes del Anexo A en el SoA |
-| G-2 | **Laboratorio técnico** sin montar (Zabbix/Wazuh/Ansible) — requisito 3ra entrega | — | Ejecutar plan `05-laboratorio/` |
+| G-2 | **Laboratorio técnico** sin montar (Zabbix/Wazuh/Ansible) | — | Ejecutar plan `05-laboratorio/` (trabajo de máquinas/VMs, fuera de este alcance) |
 
-### 🟡 Medias
-| # | Brecha | Cláusula |
-|---|---|---|
-| G-3 | **Plan de Tratamiento de Riesgos** formal (hoy implícito en las "acciones por fase" del SoA) | 6.1.3 |
-| G-4 | **Procedimiento de Auditoría Interna** + programa anual | 9.2 |
-| G-5 | **Procedimiento de Revisión por la Dirección** | 9.3 |
-| G-6 | **Procedimiento de No Conformidades y Acciones Correctivas** | 10.1, 10.2 |
-| G-7 | **Plan de Continuidad del Negocio (BCP/DRP)** | 5.29, 5.30 |
-| G-8 | **Repositorio de evidencias** (registros firmados, certificados de cursos, logs) | 7.5, 9.1 |
+## 4. Prioridad restante
 
-### 🟢 Mejoras
-| # | Mejora |
-|---|---|
-| G-9 | Documentar formalmente la **escala y criterios de aceptación del riesgo** (cl. 6.1.2). |
-| G-10 | Normalizar **nombres de archivo** de los .docx (tildes mal codificadas). |
-| G-11 | Unificar **fechas** de emisión entre documentos. |
-| G-12 | Definir **objetivos de seguridad** con metas trimestrales medibles (base en GOB-SGSI-02). |
-
-## 4. Prioridad sugerida
-
-1. **G-2** Laboratorio (vence la 3ra entrega — 18/06).
-2. **G-1** Completar SoA (Organizacionales + Personas + Físicos).
-3. **G-4 / G-5 / G-6** Procedimientos de operación del SGSI (auditoría, revisión, mejora).
-4. **G-7** BCP/DRP.
-5. **G-8 a G-12** Evidencias y mejoras de calidad.
+1. **G-2** Laboratorio técnico (Zabbix/Wazuh/Ansible) — único pendiente; trabajo de infraestructura/VMs.
+2. *(Opcional, solo si se amplía el alcance)* Completar el SoA con las categorías Organizacionales, Personas y Físicas (G-1).
 
 ## 5. Trazabilidad con el backlog (Kanban)
 
@@ -67,6 +64,9 @@
 | T-05 Política General | ✅ GOB-SGSI-02 |
 | T-06 Matriz RACI | ✅ GOB-SGSI-04 |
 | T-07 Matriz de riesgos | ✅ en repo |
-| T-08 Plan de tratamiento | 🟡 parcial (SoA) |
-| T-09/T-10 SoA + aprobación | 🟡 parcial (falta cap. 5/6/7) |
-| T-15 a T-20 Quick wins y cultura | ⏳ pendientes |
+| T-08 Plan de tratamiento | ✅ ANR-SGSI-02 |
+| T-09/T-10 SoA + aprobación | ✅ tecnológico (alcance definido) |
+| T-11–T-14 Operación del SGSI (auditoría, revisión, NC, BCP) | ✅ GOB-SGSI-05 a 08 |
+| Metodología + criterios de aceptación de riesgo | ✅ ANR-SGSI-01 |
+| Objetivos de seguridad medibles | ✅ GOB-SGSI-09 |
+| T-15 a T-20 Quick wins y cultura (laboratorio) | ⏳ pendientes (G-2) |
