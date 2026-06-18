@@ -84,7 +84,7 @@ En la **torre** (más RAM) probablemente se puedan levantar los tres juntos sin 
 - [ ] README de cada herramienta con pasos + capturas.
 - [ ] Tabla herramienta → política/procedimiento en cada README.
 - [x] Actualizar **README principal**: agregar `05-laboratorio/` a la estructura.
-- [x] `docs/mapeo-iso27001.md` ya incluye **PROC-SGSI-13/14** y los controles **8.14/8.29/8.33**.
+- [x] `docs/mapeo-iso27001.docx` ya incluye **PROC-SGSI-13/14** y los controles **8.14/8.29/8.33**.
 - [ ] Commit + push.
 
 ---

@@ -1,7 +1,7 @@
 # 📕 Políticas de Seguridad de la Información
 
 Las **15 políticas** del SGSI (POL-SGSI-01 a 15), alineadas a los controles del Anexo A de ISO/IEC 27001:2022.
-Cada política es un documento `.docx` en esta carpeta. El cruce completo con PCI DSS v4.0, Ley 21.663 y Ley 19.628 está en el [Maestro Documental](../docs/Maestro%20Documental%20SGSI.xlsx) y el [mapeo ISO](../docs/mapeo-iso27001.md).
+Cada política es un documento `.docx` en esta carpeta. El cruce completo con PCI DSS v4.0, Ley 21.663 y Ley 19.628 está en el [Maestro Documental](../docs/Maestro%20Documental%20SGSI.xlsx) y el [mapeo ISO](../docs/mapeo-iso27001.docx).
 
 | Código | Política | Controles ISO 27001:2022 (Anexo A) | Responsable |
 |---|---|---|---|

@@ -1,7 +1,7 @@
 # 📘 Procedimientos Operativos
 
 Los **18 procedimientos** del SGSI (PROC-SGSI-01 a 18) que operacionalizan las [políticas](../01-politicas/).
-Cada procedimiento es un documento `.docx` en esta carpeta. Trazabilidad completa en el [Maestro Documental](../docs/Maestro%20Documental%20SGSI.xlsx) y el [mapeo ISO](../docs/mapeo-iso27001.md).
+Cada procedimiento es un documento `.docx` en esta carpeta. Trazabilidad completa en el [Maestro Documental](../docs/Maestro%20Documental%20SGSI.xlsx) y el [mapeo ISO](../docs/mapeo-iso27001.docx).
 
 | Código | Procedimiento | Controles ISO 27001:2022 | Política | Responsable |
 |---|---|---|---|---|
