@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="762" viewBox="0 0 960 762">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1F3864"/></marker><marker id="an" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#A6A6A6"/></marker></defs>
+<rect width="960" height="762" fill="#FFFFFF"/>
+<rect x="0" y="48" width="240" height="670" fill="#F6F8FC"/>
+<rect x="0" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="120.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="120.0" dy="0.0">Adquisiciones</tspan></text>
+<rect x="240" y="48" width="240" height="670" fill="#FFFFFF"/>
+<rect x="240" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="360.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="360.0" dy="0.0">CISO</tspan></text>
+<line x1="240" y1="48" x2="240" y2="718" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="480" y="48" width="240" height="670" fill="#F6F8FC"/>
+<rect x="480" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="600.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="600.0" dy="0.0">Legal</tspan></text>
+<line x1="480" y1="48" x2="480" y2="718" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="720" y="48" width="240" height="670" fill="#FFFFFF"/>
+<rect x="720" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="840.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="840.0" dy="0.0">Gerencia TI</tspan></text>
+<line x1="720" y1="48" x2="720" y2="718" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="0" y="0" width="960" height="718" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<path d="M120.0,114 L120.0,129.0 L360.0,129.0 L360.0,144" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="360.0" y1="224" x2="360.0" y2="254" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="367.0" y="237" font-family="DejaVu Sans,Arial" font-size="11" fill="#375623">Sí</text>
+<path d="M360.0,322 L360.0,337.0 L600.0,337.0 L600.0,352" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M600.0,404 L600.0,419.0 L840.0,419.0 L840.0,434" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M840.0,486 L840.0,501.0 L360.0,501.0 L360.0,516" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M360.0,568 L360.0,583.0 L120.0,583.0 L120.0,598" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="18.0" y="72" width="204" height="42" rx="21.0" fill="#1F3864" stroke="#1F3864" stroke-width="1.6"/>
+<text x="120.0" y="93.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="120.0" dy="-7.5">Identificar y clasificar</tspan><tspan x="120.0" dy="15.0">proveedor</tspan></text>
+<polygon points="360.0,144 444.0,184.0 360.0,224 276.0,184.0" fill="#FFE699" stroke="#BF8F00" stroke-width="1.6"/>
+<text x="360.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#7F6000"><tspan x="360.0" dy="0.0">¿Crítico u OIV?</tspan></text>
+<path d="M444.0,184.0 L498.0,184.0" fill="none" stroke="#A6A6A6" stroke-width="1.4" marker-end="url(#an)"/>
+<text x="471.0" y="179.0" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" fill="#C00000">No</text>
+<rect x="498.0" y="164.0" width="204" height="40" rx="7" fill="#F2F2F2" stroke="#A6A6A6"/>
+<text x="600.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#595959"><tspan x="600.0" dy="0.0">NDA + cláusulas estándar</tspan></text>
+<rect x="258.0" y="254" width="204" height="68" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="360.0" y="288.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="360.0" dy="-15.0">Due diligence</tspan><tspan x="360.0" dy="15.0">(cuestionario,</tspan><tspan x="360.0" dy="15.0">certificaciones)</tspan></text>
+<rect x="498.0" y="352" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="600.0" y="378.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="600.0" dy="-7.5">Cláusulas OIV + SLA +</tspan><tspan x="600.0" dy="15.0">derecho de auditoría</tspan></text>
+<rect x="738.0" y="434" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="840.0" y="460.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="840.0" dy="-7.5">Accesos del proveedor con</tspan><tspan x="840.0" dy="15.0">MFA + monitoreo</tspan></text>
+<rect x="258.0" y="516" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="360.0" y="542.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="360.0" dy="-7.5">Auditoría anual del</tspan><tspan x="360.0" dy="15.0">proveedor</tspan></text>
+<rect x="18.0" y="598" width="204" height="42" rx="21.0" fill="#375623" stroke="#375623" stroke-width="1.6"/>
+<text x="120.0" y="619.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="120.0" dy="-7.5">Baja: revocar accesos +</tspan><tspan x="120.0" dy="15.0">eliminación de datos</tspan></text>
+<text x="480.0" y="734" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864" font-weight="bold"><tspan x="480.0" dy="0.0">PROC-SGSI-14 — Evaluación de proveedores  ·  ISO/IEC 27001:2022: 5.19–5.22</tspan></text>
+<text x="480.0" y="750" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" fill="#595959"><tspan x="480.0" dy="0.0">Evidencia: Due diligence, contrato, informe de auditoría   ·   Plazos: Auditoría anual</tspan></text>
+</svg>

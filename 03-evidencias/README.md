@@ -29,6 +29,7 @@ Aquí se conservan los registros que demuestran que las políticas y procedimien
 **33 diagramas**, uno por cada política y procedimiento:
 - **18 procedimientos** (flujo operativo) en [`diagramas/procedimientos/`](diagramas/procedimientos/).
 - **15 políticas** (mapa de política: alcance → reglas → control → ¿cumple?) en [`diagramas/politicas/`](diagramas/politicas/).
+- **4 swimlanes (carriles por rol, RACI)** de los procedimientos transversales (PROC-05, 06, 13, 14) en [`diagramas/swimlanes/`](diagramas/swimlanes/) — índice Mermaid en [`DIAGRAMAS-SWIMLANES.md`](diagramas/DIAGRAMAS-SWIMLANES.md).
 
 Cada PNG tiene su **fuente editable `.svg`** en [`diagramas/fuentes-svg/`](diagramas/fuentes-svg/) (regenerable con `rsvg-convert`). Índice navegable en **Mermaid** (se renderiza en GitHub): [`DIAGRAMAS-PROCEDIMIENTOS.md`](diagramas/DIAGRAMAS-PROCEDIMIENTOS.md) y [`DIAGRAMAS-POLITICAS.md`](diagramas/DIAGRAMAS-POLITICAS.md). Trazabilidad completa en `Evidencias de diagramas.docx`.
 

@@ -130,6 +130,7 @@ Ubicados en [`docs/`](docs/):
 
 **33 diagramas** en [`03-evidencias/diagramas/`](03-evidencias/diagramas/): **18 de procedimientos** (`procedimientos/`) y **15 de políticas** (`politicas/`), cada uno en PNG con su fuente editable `.svg` (`fuentes-svg/`) e índice navegable en Mermaid ([procedimientos](03-evidencias/diagramas/DIAGRAMAS-PROCEDIMIENTOS.md) · [políticas](03-evidencias/diagramas/DIAGRAMAS-POLITICAS.md)).
 
+- Además, **4 swimlanes (carriles por rol)** de los procedimientos transversales (PROC-05, 06, 13, 14) en [`swimlanes/`](03-evidencias/diagramas/swimlanes/) ([Mermaid](03-evidencias/diagramas/DIAGRAMAS-SWIMLANES.md)).
 - Destacado: **incidentes / notificación ANCI** (PROC-SGSI-05 · POL-SGSI-11) — plazos Ley 21.663: **3 h / 72 h (24 h OIV) / 15 días**.
 - Cada diagrama indica los roles (RACI), la evidencia/registros y los controles ISO asociados.
 

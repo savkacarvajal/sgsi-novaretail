@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="664" viewBox="0 0 960 664">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1F3864"/></marker><marker id="an" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#A6A6A6"/></marker></defs>
+<rect width="960" height="664" fill="#FFFFFF"/>
+<rect x="0" y="48" width="240" height="572" fill="#F6F8FC"/>
+<rect x="0" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="120.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="120.0" dy="0.0">Solicitante / Jefatura</tspan></text>
+<rect x="240" y="48" width="240" height="572" fill="#FFFFFF"/>
+<rect x="240" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="360.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="360.0" dy="0.0">CISO</tspan></text>
+<line x1="240" y1="48" x2="240" y2="620" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="480" y="48" width="240" height="572" fill="#F6F8FC"/>
+<rect x="480" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="600.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="600.0" dy="0.0">Gerencia TI</tspan></text>
+<line x1="480" y1="48" x2="480" y2="620" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="720" y="48" width="240" height="572" fill="#FFFFFF"/>
+<rect x="720" y="0" width="240" height="48" fill="#1F3864" stroke="#FFFFFF" stroke-width="1"/>
+<text x="840.0" y="24.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="840.0" dy="0.0">RRHH</tspan></text>
+<line x1="720" y1="48" x2="720" y2="620" stroke="#C9D2E3" stroke-width="1"/>
+<rect x="0" y="0" width="960" height="620" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<path d="M120.0,114 L120.0,129.0 L360.0,129.0 L360.0,144" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M360.0,224 L360.0,239.0 L600.0,239.0 L600.0,254" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="367.0" y="237" font-family="DejaVu Sans,Arial" font-size="11" fill="#375623">Sí</text>
+<line x1="600.0" y1="306" x2="600.0" y2="336" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M600.0,388 L600.0,403.0 L840.0,403.0 L840.0,418" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M840.0,470 L840.0,485.0 L600.0,485.0 L600.0,500" fill="none" stroke="#1F3864" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="18.0" y="72" width="204" height="42" rx="21.0" fill="#1F3864" stroke="#1F3864" stroke-width="1.6"/>
+<text x="120.0" y="93.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="120.0" dy="-7.5">Solicitud de acceso</tspan><tspan x="120.0" dy="15.0">(ticket ITSM)</tspan></text>
+<polygon points="360.0,144 444.0,184.0 360.0,224 276.0,184.0" fill="#FFE699" stroke="#BF8F00" stroke-width="1.6"/>
+<text x="360.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#7F6000"><tspan x="360.0" dy="-7.0">¿Aprueba (jefatura +</tspan><tspan x="360.0" dy="14.0">CISO si privilegiado)?</tspan></text>
+<path d="M444.0,184.0 L498.0,184.0" fill="none" stroke="#A6A6A6" stroke-width="1.4" marker-end="url(#an)"/>
+<text x="471.0" y="179.0" text-anchor="middle" font-family="DejaVu Sans,Arial" font-size="11" fill="#C00000">No</text>
+<rect x="498.0" y="164.0" width="204" height="40" rx="7" fill="#F2F2F2" stroke="#A6A6A6"/>
+<text x="600.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" fill="#595959"><tspan x="600.0" dy="0.0">Rechazar y registrar</tspan></text>
+<rect x="498.0" y="254" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="600.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="600.0" dy="-7.5">Alta con mínimo privilegio</tspan><tspan x="600.0" dy="15.0">+ MFA</tspan></text>
+<rect x="498.0" y="336" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="600.0" y="362.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="600.0" dy="-7.5">Modificación por cambio de</tspan><tspan x="600.0" dy="15.0">rol (≤ 48 h)</tspan></text>
+<rect x="738.0" y="418" width="204" height="52" rx="9" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.4"/>
+<text x="840.0" y="444.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864"><tspan x="840.0" dy="-7.5">RRHH notifica la</tspan><tspan x="840.0" dy="15.0">desvinculación</tspan></text>
+<rect x="498.0" y="500" width="204" height="42" rx="21.0" fill="#375623" stroke="#375623" stroke-width="1.6"/>
+<text x="600.0" y="521.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold"><tspan x="600.0" dy="-7.5">Baja de accesos el mismo</tspan><tspan x="600.0" dy="15.0">día</tspan></text>
+<text x="480.0" y="636" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" fill="#1F3864" font-weight="bold"><tspan x="480.0" dy="0.0">PROC-SGSI-06 — Alta, modificación y baja de accesos  ·  ISO/IEC 27001:2022: 5.16, 5.18, 8.2</tspan></text>
+<text x="480.0" y="652" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" fill="#595959"><tspan x="480.0" dy="0.0">Evidencia: Ticket aprobado, logs de acceso   ·   Plazos: Baja el mismo día</tspan></text>
+</svg>
